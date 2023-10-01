@@ -1,0 +1,90 @@
+body {
+  background-image: url("./img/computer.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
+.header1 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(82, 47, 80);
+}
+
+.line{
+  background-color: rgb(65, 45, 64);
+  width: 70px;
+  height: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.header2 {
+  width: 100%;
+  text-align: center;
+  color: rgb(65, 45, 64);
+}
+
+.site{
+  text-align: center;
+  font-family:'Arial', sans-serif;
+  min-height: 100%;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle{ 
+  display: flex;
+  background: rgb(243, 232, 241);
+  height: 250px;
+  width: 850px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 50px auto;
+}
+
+.item{
+  display: flex;
+  width: 33%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+.item img {
+width: 40px;
+height: 40px;
+margin-bottom: 20px;
+}
+
+p {
+  margin: 0
+}
+
+.text{
+  margin: 10px 0;
+}
+
+a {
+  color: #000
+}
+
+footer {
+  box-sizing: border-box;
+  padding-top: 30px;
+  height: 89px;
+  width: 100%;
+  background-color: rgb(48, 49, 50);
+  color: rgb(233, 226, 226);
+  text-align: center;
+  margin-top: 30px;
+}
