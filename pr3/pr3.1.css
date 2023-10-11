@@ -1,0 +1,199 @@
+@media screen and (min-width: 1000px) {
+
+  body {
+    background-image: url("./img/FFTablet_1100x.progressive.webp");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 7;
+    font-size: 150px;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  h5{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 7;
+    font-size: 15px;
+  }
+
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+  }
+
+  .menu{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu-items {
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .items {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo {
+    width: 40px;
+    margin: 0;
+  }
+
+  .img {
+    height: 100px;
+    right: 50px;
+    bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .right-img {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .menu-button {
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .text {
+    text-align: left;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 230px;
+    letter-spacing: 1px;
+  }
+
+  .footer {
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+
+  body {
+    background-image: url("./img/FFTablet_1100x.progressive.webp");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  h1 {
+    display: none;
+  }
+  
+  h5{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4;
+    font-size: 15px;
+  }
+
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent; 
+    color: white;
+  }
+
+  .menu{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+    position: relative;
+    text-align: right;
+  }
+  .items{
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .menu-items {
+    height: 40px;
+    flex-direction: row;
+    color: white;
+    margin: 0 10px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .img {
+    height: 100px;
+    right: 50px;
+    bottom: 20px;
+    margin-top: 250px;
+  }
+
+  .right-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .text {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 0;
+    letter-spacing: 1px;
+  }
+    .footer {
+      justify-content: space-between;
+      margin-top: 100px;
+    }
+}
