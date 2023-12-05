@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Task 1 - площа трикутника за формулою Герона</h2>
+<label>Сторона 1: <input type="number" id="side1"></label>
+<label>Сторона 2: <input type="number" id="side2"></label>
+<label>Сторона 3: <input type="number" id="side3"></label>
+<button onclick="calculateHeron()">Обчислити площу</button>
+<p id="result1"></p>
+
+<h2>Task 2 - площа трикутника за двома сторонами і кутом між ними</h2>
+<label>Сторона 1: <input type="number" id="sideA"></label>
+<label>Сторона 2: <input type="number" id="sideB"></label>
+<label>Кут (градуси): <input type="number" id="angleC"></label>
+<button onclick="calculateTwoSidesAndAngle()">Обчислити площу</button>
+<p id="result2"></p>
+
+<h2>Task 3 - площа трикутника за стороною і висотою</h2>
+<label>Сторона: <input type="number" id="base"></label>
+<label>Висота: <input type="number" id="height"></label>
+<button onclick="calculateSideAndHeight()">Обчислити площу</button>
+<p id="result3"></p>
+
+<h2>Task 4 - площа трикутника за трьома сторонами і радіусом описаного кола</h2>
+<label>Сторона 1: <input type="number" id="sideA5"></label>
+<label>Сторона 2: <input type="number" id="sideB5"></label>
+<label>Сторона 3: <input type="number" id="sideC5"></label>
+<label>Радіус: <input type="number" id="circumradius"></label>
+<button onclick="calculateThreeSidesAndRadius()">Обчислити площу</button>
+<p id="result5"></p>
+
+<h2>Task 5 - чи є число паліндромом</h2>
+<label>Введіть число: <input type="text" id="palindromeInput"></label>
+<button onclick="checkPalindrome()">Перевірити паліндром</button>
+<p id="result6"></p>
+
+<h2>Task 6 - перевіряє чи два слова анаграмою</h2>
+<label>Слово 1: <input type="text" id="word1"></label>
+<label>Слово 2: <input type="text" id="word2"></label>
+<button onclick="checkAnagram()">Перевірити анаграму</button>
+<p id="result7"></p>
+
+<h2>Task 7 - послідовність фібоначі</h2>
+<label>Введіть позицію: <input type="number" id="fibonacciInput"></label>
+<button onclick="calculateFibonacci()">Отримати число Фібоначчі</button>
+<p id="result8"></p>
+
+<h2>Task 8   - чи належить послідовності фібоначі</h2>
+<label>Введіть число: <input type="number" id="fibonacciCheck"></label>
+<button onclick="checkFibonacci()">Перевірити приналежність до Фібоначч</button>
+<p id="result9"></p>
+    <script src="script.js"></script>
+</body>
+</html>
